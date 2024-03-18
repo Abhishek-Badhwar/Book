@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import MyFooter from './components/Footer/MyFooter';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>Hello Book Store</div>
+      <Navbar />
+      <div className='min-h-screen'>
+        <Outlet />
+      </div>
+      <MyFooter />
     </>
   )
 }
