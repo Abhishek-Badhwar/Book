@@ -14,7 +14,7 @@ const MyFooter = () => {
                             src="/Books_stash_footer.png"
                             alt="Books Stash Logo"
                             name=""
-                            className=''
+                            className='w-32 h-24'
                         />
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">

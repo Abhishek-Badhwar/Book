@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className='  flex items-center bgimg bg-black '>
 
-            <div className='px-4 lg:px-24 flex w-full bg-[rgba(0,0,0,0.8)] flex-col md:flex-row justify-between items-center gap-12 py-40'>
+            <div className='px-4 lg:px-24 flex w-full bg-[rgba(0,0,0,0.8)] flex-col md:flex-row justify-between items-center gap-12 py-24 lg:py-40'>
                 {/* left side */}
                 <div className='md:w-1/2 space-y-8 h-full'>
                     <h2 className='text-5xl font-bold leading-snug text-white'>Buy and Sell Your Books <span className='text-blue-700'>For Best Prices</span></h2>
