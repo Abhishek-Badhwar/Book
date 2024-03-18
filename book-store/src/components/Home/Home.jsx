@@ -10,17 +10,17 @@ import MyFooter from '../Footer/MyFooter';
 
 const Home = () => {
   return (
-    <div className=''>
-      <div className='h-screen '>
-        <Banner />
-        <BestSellerBooks />
-        <FavBooks />
-        <PromoBanner />
-        <OtherBooks />
-        <Reviews />
-        <MyFooter />
-      </div>
-    </div>
+
+    <>
+      <Banner />
+      <BestSellerBooks />
+      <FavBooks />
+      <PromoBanner />
+      <OtherBooks />
+      <Reviews />
+
+    </>
+
   )
 }
 
